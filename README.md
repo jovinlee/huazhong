@@ -27,17 +27,21 @@ BasePath : http://IP:8080/huazhong/
 **2.获取图片验证码**
 
 `接口名：userController!getVerifyCode.action`
+
 `参数: 无`
 
 `返回数据:`
+
 `验证码图片流`
 
 **3.验证用户名是否已被注册过**
 
 `接口名：userController!isUserNameExists.action?userName=karl`
+
 `参数：userName 用户名`
 
 `返回数据:`
+
 ```javascript
 {
 	"message": "该用户名未被使用，可以注册",
@@ -53,6 +57,7 @@ BasePath : http://IP:8080/huazhong/
 **4.用户注册**
 
 `接口名：userController!userRegister.action?userName=karl&phoneNum=15986793724&password=123456&smsVerifycode=9527&verifyCode=abcd`
+
 `参数：userName 用户名 password 密码 phoneNum 电话号码 smsVerifycode 短信验证码 verifyCode 验证码`
 
 `返回数据:`
@@ -71,6 +76,7 @@ BasePath : http://IP:8080/huazhong/
 **5.用户登录**
 
 `接口名：userController!login.action?userName=karl&password=123456&verifyCode=abcd&isRememberPwd=1`
+
 `参数：userName 用户名 password 密码 verifyCode 验证码 isRememberPwd 是否记住密码(1为记住，0为不记住)`
 
 `返回数据:`
@@ -96,6 +102,7 @@ BasePath : http://IP:8080/huazhong/
 **7.修改密码**
 
 `接口名：userController!resetPassword.action?oldPassword=123456&newPassword=111111&smsVerifycode=778111`
+
 `参数：oldPassword 旧密码 newPassword 新密码 smsVerifycode 短信验证码 `
 
 `返回数据:`
