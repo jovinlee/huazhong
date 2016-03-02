@@ -52,7 +52,7 @@ BasePath : http://IP:8080/huazhong/
 	"message": "该用户名已被注册过，请更换其他用户名",
 	"success": false
 }
-```javascript
+```
 
 **4.用户注册**
 
@@ -71,7 +71,7 @@ BasePath : http://IP:8080/huazhong/
 	"message": "验证码已过期",
 	"success": false
 }
-```javascript
+```
 
 **5.用户登录**
 
@@ -90,7 +90,7 @@ BasePath : http://IP:8080/huazhong/
 	"message": "用户名错误或已被禁用",
 	"success": false
 }
-```javascript
+```
 
 **6.用户登出**
 
@@ -116,7 +116,7 @@ BasePath : http://IP:8080/huazhong/
 	"message": "旧密码错误",
 	"success": false
 }
-```javascript
+```
 
 
 
